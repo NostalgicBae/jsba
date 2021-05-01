@@ -85,6 +85,9 @@ header .logo {
   position: relative;
   z-index: 10;
 }
+.title-span {
+  color: #4ea3da;
+}
 .text h2 {
   font-size: 5em;
   font-weight: 800;

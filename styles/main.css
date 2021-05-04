@@ -245,15 +245,7 @@
   }
 }
 
-.img-dot {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  max-width: 100%;
-  max-height: 90%;
-  border-radius: 15px;
-}
+
 
 .A {
   height: 90vh;
@@ -279,14 +271,11 @@
   font-size: 30px;
 }
 
-/* Clear floats after the columns */
 .A:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 1200px) {
   .img-dot {
